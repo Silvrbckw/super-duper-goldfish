@@ -1,0 +1,13 @@
+prefix=/workspaces/codespaces-flask/.conda
+exec_prefix=/workspaces/codespaces-flask/.conda
+libdir=/workspaces/codespaces-flask/.conda/lib
+sharedlibdir=/workspaces/codespaces-flask/.conda/lib
+includedir=/workspaces/codespaces-flask/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
